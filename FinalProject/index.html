@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="rosewood, mya, willows creek, game, adventure game">
+    <meta name="description" content="A character wiki for Rosewood: Willows Creek.">
+
+    <title>Rosewood: Willows Creek Character Wiki</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/print.css" media="print" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Rosewood: Willows Creek Character Wiki</h1>
+        <h2>Explore the Characters, some lore, and main points of the game!</h2>
+    </header>
+    
+    <div id="overlayNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="main-character.html">Main Character</a>
+        <a href="side-characters.html">Side Characters</a>
+        <a href="villains.html">Villains & Protagonists</a>
+        <a href="world-map.html">World Map</a>
+    </div>
+
+    <span class="menu-btn" onclick="openNav()">&#9776; Menu</span>
+
+    <section class="grid-container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="media/mya.jpg" alt="Main character Mya from Rosewood Willows Creek">
+                </div>
+                <div class="card-back">
+                    <h3>Main Character</h3>
+                    <p>
+                        Meet the main character! Her name is Mya, she has plenty of hidden talents, skills, and abilities that the player can discover while playing the game! Mya is the character the player will play as throughout the storyline.
+                    </p>
+                    <button onclick="window.location.href='main-character.html'">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="media/support.jpg" alt="Supporting characters from Rosewood Willows Creek">
+                </div>
+                <div class="card-back">
+                    <h3>Side Characters</h3>
+                    <p>
+                        Unlike Mya, everyone else in the village cannot see the magic. There are a few side characters that the player will interact with to restore the magic, however the villagers' lack of magic knowledge creates a challenge.
+                    </p>
+                    <button onclick="window.location.href='side-characters.html'">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="media/enemy.jpg" alt="Enemy character from Rosewood Willows Creek">
+                </div>
+                <div class="card-back">
+                    <h3>Villains and Antagonists</h3>
+                    <p>
+                        Throughout the long quest to save the world, the player will be faced with many villagers trying to stop them. The first of them being the blacksmith, an older man who has struggled with misfortune his whole life.
+                    </p>
+                    <button onclick="window.location.href='villains.html'">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="media/worldmap.jpg" alt="World map of Rosewood Willows Creek">
+                </div>
+                <div class="card-back">
+                    <h3>World Map Preview</h3>
+                    <p>
+                        The world of Rosewood is anything but small. This world has a variety of biomes, landscapes, and breathtaking views for the player to heal and discover.
+                    </p>
+                    <button onclick="window.location.href='world-map.html'">Read More</button>
+                </div>
+            </div>
+        </div>
+        <article>
+            <section>
+                <h2>About Me</h2>
+                <p>I am a freshman college student aspiring to be a Game Developer, this website is my Final Project in one of my classes and reflects a (slightly edited) version on my latest game design.</p>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2>Thank You for Reading!</h2>
+                <p>Please let me know what you think of the design of this website, and my game! Any feedback is welcome! I would also like to mention the images used are open source and not accurate to my vision for this game.</p>
+            </section>
+        </article>
+    </section>
+
+    <div class="icon-bar">
+        <a href="index.html"><i class="home"></i></a>
+        <a href="mailto:Alainna.carmon.25@gmail.com"><i class="envelope"></i></a>
+        <a href="https://github.com" target="_blank"><i class="github"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="linkedin"></i></a>
+    </div>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="main-character.html">Main Character</a>
+            <a href="side-characters.html">Side Characters</a>
+            <a href="villains.html">Villains</a>
+            <a href="world-map.html">World Map</a>
+        </nav>
+        <p style="color: #FFD500">Contact: alainna.carmon.25@gmail.com</p>
+        <p style="color: #FFD500">&copy; Alainna Carmon</p>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("overlayNav").style.width = "250px";
+            document.querySelector(".menu-btn").style.display = "none";
+        }
+
+        function closeNav() {
+            document.getElementById("overlayNav").style.width = "0";
+            document.querySelector(".menu-btn").style.display = "inline-block";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+img {
+    display: none;
+}
+
+
+body {
+    color: black;
+    font-size: 12pt;
+    background-color: white;
+    font-family: 'Merriweather', serif;
+}
+
+
+article, header, section, footer, nav, button {
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+}
+
+section, article {
+    display: block;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    width: 100%;
+}
+
+
+a {
+    color: black !important;
+    text-decoration: underline;
+}
+
+
+.menu-btn, button {
+    display: none !important;
+}
